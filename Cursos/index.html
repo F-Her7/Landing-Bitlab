@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bitlab</title>
+</head>
+<body>
+   
+    <section class="h-full bg-white">
+        <div class="container h-24 flex flex-row justify-between items-center">
+                <nav class="cardss flex items-center justify-between flex-wrap bg-transparent p-6 fixed w-10/12 z-10 top-0" id="navbar">
+                    <a href="../index.html">
+                        <img alt="Bitlab" src="img/logo.svg" class="h-6 logo-white transparent">
+                    </a>
+                    <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    </div>
+            
+                    <div class="block lg:hidden">
+                        <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+                            <svg class="fill-current h-3 w-3"</svg></svg>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+            
+                    <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
+                        <ul class="list-reset lg:flex justify-end flex-1">
+                            <li class="mr-3">
+                                <a class="inline-block text-black no-underline font-bold pt-2 px-2 " href="index.html">Cursos</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-black no-underline font-bold pt-2 px-2" href="../Becas/index.html">Becas</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-black no-underline font-bold pt-2 px-2" href="../Eventos/index.html">Eventos</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-black no-underline font-bold pt-2 px-2" href="../Aliados/index.html">Aliados</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                
+    </section>
+
+    <section class="bg-gray-200 md:container px-6 md:px-0 h-18 relative text-center ">
+        <div class="mt-4 mb-4 relative float-none item-filter inline-block w-1/2 md:w-1/6 text-center">
+            <a class="no-underline text-black font-medium" href="#" id="software" >Desarrollo de software</a>
+        </div>
+
+        <div class="mt-4 mb-4 relative float-none item-filter inline-block w-1/2 md:w-1/6 text-center">
+            <a class="no-underline text-black font-medium" href="#" id="strategy" >Estrategia digital</a>
+        </div>
+
+        <div class="mt-4 mb-4 relative float-none item-filter inline-block w-1/2 md:w-1/6 text-center">
+            <a class="no-underline text-black font-medium" href="#" id="uxui">Diseno</a>
+        </div>
+
+        <div class="mt-4 mb-4 relative float-none item-filter inline-block w-1/2 md:w-1/6 text-center">
+            <a class="no-underline text-black font-medium" href="#" id="entrepreneur" >Emprendimiento</a>
+        </div>
+
+    </section>
+
+    <section class="container flex flex-col md:flex-row md:flex-wrap mb-12">
+
+            <div class="container flex flex-col md:flex-row md:justify-between md:items-center mb-16">
+                <div class="mb-6 md:mb-0">
+                        <h2 class="text-4xl mb-2 mt-8 montserrat font-bold">Cursos Disponibles</h2>
+                        <p class="text-md montserrat">Te presentamos los cursos completos que BITLAB tiene para ti, encuentra el que <br>
+                            deseas realizar e inscríbete y aprende de la mano de profesionales en el área.</p>
+                </div>
+            </div>
+
+                <div class="cards software px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/1.jpg')">
+                        </div>
+    
+                         <div class="container flex-wrap border border-gray-600">
+                            <h2 class="mb-2 text-black text-xl mt-8">Frontend Developer</h2>
+                            <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Roxana González</h3>
+                            <p class="mb-4 text-grey-dark text-sm">
+                                Con este curso podrás desarrollar sitios web <br> 
+                                del mundo real usando las últimas <br>
+                                tcnologías implementarias en la industria. <br>
+                                Además aprenderás a desarrol...
+                            </p>
+                            <hr>
+                        <div class="flex justify-between items-center">
+                            <p4 class=" mb-4 text-grey-dark text-xl font-bold">108 horas</p4>
+                            <a href="Curso-Frontend/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                id="btn">Ver más</button> </a> 
+                        </div>
+                        </div>
+                </div>
+    
+                <div class="cards software px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/2.jpg')">
+                        </div>
+    
+                         <div class="container flex-wrap border border-gray-600">
+                            <h2 class="mb-2 text-black text-xl mt-8">Backend Developer</h2>
+                            <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Roxana González</h3>
+                            <p class="mb-4 text-grey-dark text-sm">
+                                Con este curso podrás desarrolar backends <br> 
+                                del mundo real usando las últimas <br>
+                                tecnologías usadas en la industria. Logrará <br>
+                                realizar backends comprendie...
+                            </p>
+                            <hr>
+                        <div class="flex justify-between items-center">
+                            <p4 class=" mb-4 text-grey-dark text-xl font-bold">108 horas</p4>
+                            <a href="Curso-Backend/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                id="btn">Ver más</button> </a> 
+                        </div>
+                        </div>
+                </div>
+    
+                <div class="cards entrepreneur px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/3.jpg')">
+                        </div>
+    
+                         <div class="container flex-wrap border border-gray-600">
+                            <h2 class="mb-2 text-black text-xl mt-8">Emprendimiento</h2>
+                            <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Carlos Moreno</h3>
+                            <p class="mb-4 text-grey-dark text-sm">
+                                Aprenderás los conceptos básicos del <br> 
+                                emprendimiento, herramientas de <br>
+                                validación, las diferentes etapas y lográs <br>
+                                tener bases para la operación y...
+                            </p>
+                            <hr>
+                        <div class="flex justify-between items-center">
+                            <p4 class=" mb-4 text-grey-dark text-xl font-bold">48 horas</p4>
+                            <a href="Curso-Emprendimiento/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                id="btn">Ver más</button> </a>
+                        </div>
+                        </div>
+                </div>
+    
+                <div class="cards strategy px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/4.jpg')">
+                        </div>
+    
+                         <div class="container flex-wrap border border-gray-600">
+                            <h2 class="mb-2 text-black text-xl mt-8">Estrategia Digital Avanzada</h2>
+                            <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Fabiola León</h3>
+                            <p class="mb-4 text-grey-dark text-sm">
+                                Con este curso comprenderás los beneficios <br> 
+                                de la metodología inbound marketing y <br>
+                                sabrás cómo aplicarla. Entenderás el <br>
+                                entorno digital y la posibilida...
+                            </p>
+                            <hr>
+                        <div class="flex justify-between items-center">
+                            <p4 class=" mb-4 text-grey-dark text-xl font-bold">48 horas</p4>
+                            <a href="Curso-Estrategia Digital Elevada/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                id="btn">Ver más</button> </a>
+                        </div>
+                        </div>
+                </div>
+
+                <div class="cards software px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/1.jpg')">
+                        </div>
+
+                        <div class="container flex-wrap border border-gray-600">
+                                <h2 class="mb-2 text-black text-xl mt-8">Introducción a la <br>programación</h2>
+                                <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Roxana González</h3>
+                                <p class="mb-4 text-grey-dark text-sm">
+                                    Aprenderás conceptos básicos de <br> 
+                                    programación y herramientas para entrar  <br>
+                                    al mundo del desarrollo web y movil. Este <br>
+                                    curso es requisito para personas con...
+                                </p>
+                                <hr>
+                            <div class="flex justify-between items-center">
+                                <p4 class=" mb-4 text-grey-dark text-xl font-bold">10 horas</p4>
+                                <a href="Curso-Introducción Programación/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                    id="btn">Ver más</button> </a>
+                            </div>
+                            </div>
+                </div>
+
+                <div class="cards strategy px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/6.jpg')">
+                        </div>
+    
+                        <div class="container flex-wrap border border-gray-600">
+                                <h2 class="mb-2 text-black text-xl mt-8">Introducción a la <br>estrategia digital</h2>
+                                <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Fabiola León</h3>
+                                <p class="mb-4 text-grey-dark text-sm">
+                                    Aprenderás conceptos básicos básicos, <br> 
+                                    los medios digitales de tendencia, lo básico <br>
+                                    de un plan de pauta, buena práctica, hacks y <br>
+                                    herramientas para utulizar u opt...
+                                </p>
+                                <hr>
+                            <div class="flex justify-between items-center">
+                                <p4 class=" mb-4 text-grey-dark text-xl font-bold">4 horas</p4>
+                                <a href="Curso-Introducción Estrategia-Dig/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                    id="btn">Ver más</button> </a>
+                            </div>
+                            </div>
+                </div>
+
+                <div class="cards entrepreneur px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/7.jpg')">
+                        </div>
+    
+                        <div class="container flex-wrap border border-gray-600">
+                                <h2 class="mb-2 text-black text-xl mt-8">Introducción al <br>emprendimiento</h2>
+                                <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Carlos Moreno</h3>
+                                <p class="mb-4 text-grey-dark text-sm">
+                                    Descubre el camino para emprender en El <br> 
+                                    Salvador desde construir tu modelo de <br>
+                                    negocios, herramientas, aliados y opciones <br>
+                                    de fondeo hasta como reparar ...
+                                </p>
+                                <hr>
+                            <div class="flex justify-between items-center">
+                                <p4 class=" mb-4 text-grey-dark text-xl font-bold">4 horas</p4>
+                                <a href="Curso-Introducción Emprendimiento/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                    id="btn">Ver más</button> </a>
+                            </div>
+                            </div>
+                </div>
+
+                <div class="cards uxui px-2 w-full md:w-1/2 mb-6 sm:flex" id="card-c">
+                        <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" 
+                            style="background-image: url('img/8.jpg')">
+                        </div>
+    
+                         <div class="container flex-wrap border border-gray-600">
+                            <h2 class="mb-2 text-black text-xl mt-8">Introducción al <br>UX/UI</h2>
+                            <h3 class="mb-4 text-grey-dark text-sm font-bold mt-4">Luis Pinto</h3>
+                            <p class="mb-4 text-grey-dark text-sm">
+                                Conocerás la diferencia entre la <br> 
+                                Experiencia de usuario e interfaz de <br>
+                                Usuario, entenderás el significado de cada <br>
+                                uno y aprenderás procesos, tips ...
+                            </p>
+                            <hr>
+                        <div class="flex justify-between items-center">
+                            <p4 class=" mb-4 text-grey-dark text-xl font-bold">4 horas</p4>
+                            <a href="Curso-UX_UI/index.html"><button class="h-10 w-20 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" 
+                                id="btn">Ver más</button> </a>
+                        </div>
+                        </div>
+                </div>
+        </section>>
+
+
+    <footer class="flex p-2 bg-black justify-around flex-wrap">
+            <img src="img/logo.png" class="h-6 logo-white transparent ">
+            <p class="text-white ">Todos los derechos reservados, 2019 © BITLAB</p>
+            <div class="flex items-center">
+                <span class="icon-phone text-white ml-2"></span>
+                <p class="text-white ml-2">2200-4197</p>
+                <span class="icon-facebook text-white ml-2"></span>
+                <span class="icon-instagram text-white ml-2"></span>
+            </div>
+    </footer>
+</body>
+<script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+        }
+        
+        $(document).ready(function(){
+                $("#software").click(function(){
+                    $(".cards").hide();
+                    $(".software").show();
+                });
+                $("#strategy").click(function(){
+                    $(".cards").hide();
+                    $(".strategy").show();
+                });
+                $("#uxui").click(function(){
+                    $(".cards").hide();
+                    $(".uxui").show();
+                });
+                $("#entrepreneur").click(function(){
+                    $(".cards").hide();
+                    $(".entrepreneur").show();
+                });
+});
+	</script>
+</html>

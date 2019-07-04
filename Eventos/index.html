@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bitlab</title>
+</head>
+<body>
+   
+    <section class="h-full" style="background-image: url(img/banner.png)">
+        <div class="container h-24 flex flex-row justify-between items-center">
+                <nav class="flex items-center justify-between flex-wrap bg-transparent p-6 fixed w-10/12 z-10 top-0">
+                    <a href="../index.html">
+                        <img alt="Bitlab" src="img/logo.png">
+                    </a>
+                    <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    </div>
+            
+                    <div class="block lg:hidden">
+                        <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+                            <svg class="fill-current h-3 w-3"</svg></svg>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+            
+                    <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
+                        <ul class="list-reset lg:flex justify-end flex-1">
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2 " href="../Cursos/index.html">Cursos</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2" href="../Becas/index.html">Becas</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2" href="index.html">Eventos</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2" href="../Aliados/index.html">Aliados</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    </div>
+        <div class="container">
+            <div class="flex items-start md:items-center flex-col md:flex-row mt-20 p-6">
+                <img src="img/font1.png" alt="h-6">
+            </div>
+            
+            <div class="container mt-2 pl-8">
+                <p class="text-white text-md">Nuestros alumnos tienen entradas gratis e invitación a eventos <br>privados y exclusivos.</p>
+            </div>
+        </div>
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    </section>
+
+    <section class="w-full">
+        <div class="container py-24" id="card-full">
+            <div class="flex flex-col-reverse md:flex-row group card-event md:h-80">
+                <div class="md:w-3/5 flex flex-col justify-center border border-white xl:border-t group-hover:border-grey-dark px-6 group-hover py-6 md:py-0 h-full md:h-80" id="card">
+                    <h2 class="text-3xl font-bold montserrat mb-4 mt-8">Girls in Tech</h2>
+                    <p class="leading-normal mb-4">En BitLab trabajamos para impulsar a las mujeres de El Salvador a perder el miedo a la tecnología, 
+                        las motivamos a exponerse y atreverse a lograr sus sueños de ser programadoras, científicas o CEO. Por eso te invitamos a celebrar el día de la mujer de una forma diferente.
+                        <br>
+                        Queremos inspirarte e impulsarte a partir de la experiencia de ellas para que conozcas más sobre lo que puedes llegar a ser y lograr.
+                    </p>
+                    <p class="text-sm">8 marzo 2019 / 9:00am - 5:30pm</p>
+                    <button class="justify-end bg-white h-10 mt-8 mb-8 w-24 border-2 border-purple-700 text-purple-700 rounded text-base" id="btn-end">Ver más</button>
+                </div>
+            <div class="md:w-2/5 h-full">
+                <img src="img/img_evento.jpg" alt class="md:h-80 w-full event-image opacity-1 md:opacity-0 -mb-1 xl:-mb-0 hover:opacity-0" style="object-fit: cover;" id="img-evento">
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="h-screen w-full bg-gray-200" style="background-image: url(img/bottom.png)" id="bottom">
+       
+        <div class="container">
+                <div class="flex flex-col md:flex-row group card-event md:h-80">
+                    <div class="md:w-3/5 justify-center h-full">
+                        <p class="text-white text-md pt-48">Nuestros alumnos tienen entradas gratis e invitación a eventos <br>privados y exclusivos.</p> <br> <br>
+                        <img src="img/font2.png" class="mb-4">
+                    </div>
+                    
+                <div class="md:w-4/12 h-full xl:mt-32">
+                    <form class="bg-white shadow-md rounded mb-12 px-8 pt-6 pb-8">
+                            <div class="mb-4">
+                                <label class="ml-4 items-center text-black text-2xl font-bold mb-2 mt-8" for="">
+                                    Suscríbete ahora
+                                </label>
+                                <input class="ml-2 border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Nombre">
+                            </div>
+                            <div class="mb-6">
+                                <input class="ml-2 border-b-2 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="relative">
+                                    <select class="appearance-none w-full bg-white border-b-2 border-gray-200 text-gray-700 py-3 px-4 pr-8 ">
+                                      <option>¿Qué area te interesa más?</option>
+                                      <option>Desarrollo de Software</option>
+                                      <option>Estrategia Digital</option>
+                                      <option>Diseño</option>
+                                      <option>Emprendimiento</option>
+                                    </select>
+                                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                    </div>
+                            </div> <br> <br>
+                                <div class="flex items-center">
+                                    <button class="ml-24 bg-white h-10 w-32 border-2 border-purple-700 text-purple-700 rounded font-bold text-base" id="btn-end" type="button">
+                                    Registrarme
+                                    </button>
+                                </div>
+                    </form>
+
+                    </div>
+                </div>
+    
+                </div>
+            </div>
+        
+    </section>
+    
+
+    <footer class="flex p-2 bg-black justify-around flex-wrap">
+            <img src="img/logo.png" class="h-6 logo-white transparent ">
+            <p class="text-white ">Todos los derechos reservados, 2019 © BITLAB</p>
+            <div class="flex items-center">
+                <span class="icon-phone text-white ml-2"></span>
+                <p class="text-white ml-2">2200-4197</p>
+                <span class="icon-facebook text-white ml-2"></span>
+                <span class="icon-instagram text-white ml-2"></span>
+            </div>
+    </footer>
+</body>
+<script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bitlab</title>
+</head>
+<body>
+   
+    <section class="h-full" id="primera-parte">
+       
+        <div class="container h-24 flex flex-row justify-between items-center">
+                <nav class="flex items-center justify-between flex-wrap bg-transparent p-6 fixed w-10/12 z-10 top-0">
+                    <a href="../../index.html">
+                        <img alt="Bitlab" src="img/logo.png">
+                    </a>
+                    <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    </div>
+            
+                    <div class="block lg:hidden">
+                        <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+                            <svg class="fill-current h-3 w-3"</svg></svg>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+            
+                    <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:block pt-10 lg:pt-0" id="nav-content">
+                        <ul class="list-reset lg:flex justify-end flex-1">
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2 " href="../../Cursos/index.html">Cursos</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2" href="../../Becas/index.html">Becas</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2" href="../../Eventos/index.html">Eventos</a>
+                            </li>
+                            <li class="mr-3">
+                                <a class="inline-block text-white no-underline font-bold pt-2 px-2" href="../../Aliados/index.html">Aliados</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    </div>
+    
+    <div class="home-course flex flex-col lg:flex-row items-center">
+        <div class="container xl:w-2/5">
+
+            <div class="container items-center text-white">
+                <h2 class="text-4xl mb-6 font-bold">Emprendimiento</h2>
+                    <div class="flex mb-8 items-center flex-wrap w-7/12">
+                        <img src="img/icon-2.png"> <p class="ml-2"> Meses</p>
+                        <img src="img/icon-1.png" class="ml-12"> <p class="ml-2">Becas Disponibles</p>
+                    </div>
+                <p class="mb-8">Aprenderás los conceptos básicos del emprendimiento, herramientas de <br> 
+                    validación, las diferentes etapas y lográs tener las bases para la <br> 
+                    organización y gestión de tu equipo de trabajo. Además conocerás los <br>
+                    primeros pasos para dar a conocer tu emprendimiento y sabrás <br>
+                    estructurar un Pitch.
+            
+                        </p>
+                
+            </div>
+        </div>
+            <img src="img/banner.png" class="w-2/5 mb-32" id="img-1">            
+        </div>
+
+    </section>
+
+    <section class="h-screen bg-gray-200">
+            
+        <div class="home-course flex flex-col lg:flex-row items-center">
+                    <div class="container xl:w-2/5">
+            
+                        <div class="container items-center text-black mb-10">
+                            <h2 class="text-4xl mt-20 mb-10 font-bold">¿Cómo aprenderás?</h2>
+                            <p class="font-base font-bold">Aprende técnicas de los mejores</p>
+                            <p class="font-base - teext-black">Impartido por instructores con experiencia trabajando en el campo, <br>
+                            aprende los conceptos, habilidades, y herramientas más demandadas.</p>    
+                        </div>
+
+                        <div class="container items-center text-black mt-4 mb-10">
+                                
+                                <p class="font-base font-bold">Proyectos práctica para tu portafolio.</p>
+                                <p class="font-base - teext-black">Trabaja en proyectos en un entorno de colaboración <br>
+                                para aplicar nuevos conceptos y técnicas y desarrollar tus habilidades.</p>    
+                        </div>
+
+                        <div class="container items-center text-black mt-4">
+                                
+                                <p class="font-base font-bold">Reqisitos:</p>
+                                <p class="font-base - teext-black">Hber completado el curso introducción al desarrollo <br>
+                                impartido en itlab. No es necesario traer tu propio equipo.</p>    
+                        </div>
+
+                    </div>
+                        <img src="img/banner-1.png" class="w-2/5 mt-32" id="img-1">            
+        </div>
+
+    </section>
+
+    <section class="h-full">
+        <div class="text-center mt-20">
+                <h2 class="text-4xl mb-8 montserrat font-bold">Programas del Curso</h2>
+        </div>
+
+        <div class="flex flex-col xl:flex-row justify-center">
+            
+            <div class="border-l mt-8 xl:ml-64 w-2/5 mx-8">
+                <ul id="list" class="v-expansion-panel theme-light">
+                    <li>
+                        <div class="flex v-expansion-panel__header">
+                            <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="mt-1 ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo">Semana 1</button>
+                        </div>
+                        <div id="demo" class="collapse" class="card-content v-expansion-panel__body">
+                            <div class="cardss content pb-0 mt-4">
+                                <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es una idea?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es Innovación?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es una Idea Innovadora?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es una Startup?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Ciclo de vida de las Startups</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Mi equipo ideal de trabajo</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Definición e identificación de competencias</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">El riesgo de emprender solo</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿A quienes debo involucrar para trabajr en mi Startup?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Gestión del Equipo de trabajo</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Delegación de tareas</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de planificación y gestión de equipos</h4></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex v-expansion-panel__header mt-8">
+                                    <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo-2">Semana 2</button>
+                                </div>
+                                <div id="demo-2" class="collapse" class="card-content v-expansion-panel__body">
+                                    <div class="cardss content pb-0 mt-4">
+                                        <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Herramientas de Fondeo de Startups</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Para qué me sirve el Fondeo?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué opciones de Fondeo tengo en etapas tempranas?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Calcular el precio de mi producto</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas para calcular el precio de un producto o servicio</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Regalo o vendo mi producto? ¿Cuánto de eso?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Modelo de Negocios</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es un Modelo de Negocios?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es un plan de Negocios?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Para qué sirve un Modelo de Negocios?</h4></div>
+                                    </div>
+                                </div>
+                    </li>
+                    <li>
+                        <div class="flex v-expansion-panel__header mt-8">
+                                    <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo-3">Semana 3</button>
+                                </div>
+                                <div id="demo-3" class="collapse" class="card-content v-expansion-panel__body">
+                                    <div class="cardss content pb-0 mt-4">
+                                        <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Business Model Canvas</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Como definir una propuesta de valor innovadora</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Definir las diferentes secciones del BMC</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Definir el Business Model Cnvas de mi Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Presentar el Business Model Canvas de mi Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Redes Sociales y tu Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué son las redes sociales?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Cómo pueden ayudar las Redes Sociales a mi Startup?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué hacer y qué no hacer en Redes Sociales?</h4></div>
+                                    </div>
+                                </div>
+                    </li>
+                    <li>
+                        <div class="flex v-expansion-panel__header mt-8">
+                                    <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo-4">Semana 4</button>
+                                </div>
+                                <div id="demo-4" class="collapse" class="card-content v-expansion-panel__body">
+                                    <div class="cardss content pb-0 mt-4">
+                                        <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Redes Sociales para mi Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Redes Sociales como herramienta de comunicación</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Cuál es la red social ideal para mi Startup?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Definición de producto</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Estrategia de comunicación en redes sociales basado en el <br> producto</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de comunicación en redes sociales</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de comunicación para Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de comunicación y su uso para las Startups</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Canales de comunicación para los clientes</h4></div>
+                                    </div>
+                                </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="border-l mt-8 w-1/2 mx-8">
+                <ul id="list" class="v-expansion-panel theme-light">
+                    <li>
+                    <div class="flex v-expansion-panel__header">
+                            <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                        <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo7">Semana 5</button>
+                        </div>
+                        <div id="demo7" class="collapse" class="card-content v-expansion-panel__body">
+                            <div class="cardss content pb-0 mt-4">
+                                <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Implementación de Redes Sociales para mi Startup</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Creación de cuentas Empresariales para Redes Sociales</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">La innovación en la creación de Productos</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Definición de Innovación y por qué es importante para una Startup</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Por qué es importante el I+D+i?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Producto: ¿Cuándo lanzar?</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de desarrollo de productos</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">La importancia del desarrollo de Prototipos</h4></div>
+                            </div>
+                            <div class="cardss content pb-0">
+                                    <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de Prototipado de Productos</h4></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex v-expansion-panel__header mt-8">
+                                    <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo-8">Semana 6</button>
+                                </div>
+                                <div id="demo-8" class="collapse" class="card-content v-expansion-panel__body">
+                                    <div class="cardss content pb-0 mt-4">
+                                        <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Procesos de desarrollo de productos innovadores</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">La importancia de la innovación al momento de crear productos</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas de desarrollo de productos basado en el prototipado</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Prototipado de productos</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Creación del prototipo de productos de mi Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Presentación del prototipo y validación</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Desarrollo del Producto Mínimo Viable</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es un MVP?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Creación del producto basado en el prototipo</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Creación del Producto Mínimo Viable</h4></div>
+                                    </div>
+                    </li>
+                    <li>
+                        <div class="flex v-expansion-panel__header mt-8">
+                                    <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo-9">Semana 7</button>
+                                </div>
+                                <div id="demo-9" class="collapse" class="card-content v-expansion-panel__body">
+                                    <div class="cardss content pb-0 mt-4">
+                                        <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Pitch</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es un Pitch?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Para qué sirve un Pitch?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es un Pitch Deck?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Para qué sirve un Pitch Deck?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Cómo estructurar un Pitch?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Las secciones de Pitch</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Recomendaciones para la elaboración de pitch</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Construcción y Presentación del Pitch de la Startup</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Round pitch de ideas</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Retroalimentación del Round Pitch</h4></div>
+                                    </div>
+                                </div>
+                    </li>
+                    <li>
+                        <div class="flex v-expansion-panel__header mt-8">
+                                    <div class="mt-3 h-3 w-3 bg-indigo-600 flex"></div>
+                            <button type="button" class="ml-2 montserrat text-2xl" data-toggle="collapse" data-target="#demo-10">Semana 8</button>
+                                </div>
+                                <div id="demo-10" class="collapse" class="card-content v-expansion-panel__body">
+                                    <div class="cardss content pb-0 mt-4">
+                                        <div class="mb-4"><h4 class=" ml-2 text-purple-600 font-bold mb-2">Inversión para Startups</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es inversión para Startups?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Cuándo buscar inversión para mi Startup?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué es un emprendimiento de alto impacto?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Etapas de las Startups para financiamiento</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Inversión Ángel</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Para qué sirve la inversión ángel?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Qué ve el inversioninsta en una Startup?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">¿Cómo puedo ser atractivo para un inversionista?</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Pitch Deck para Inversionista</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Herramientas para hacer un pitch a inversionistas</h4></div>
+                                    </div>
+                                    <div class="cardss content pb-0">
+                                            <div class="mb-4"><h4 class="ml-2 text-purple-600 font-bold mb-2">Cálculos de inversión para Startups</h4></div>
+                                    </div>
+                                </div>
+                    </li>
+                </ul>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="h-full">
+            <div class="container-interest flex items-center mt-24">
+                    <img src="img/banner-2.png" class="mt-20 md:w-1/3 lg:w-1/3 xl:w-1/3" id="img-1">
+                    <div class="container flex items-center xl:ml-48 xl:mt-16">
+                        <div class="flex relative">
+                            <div class="w-full ml-8 xl:w-full xl:ml-auto lg:text-left mb-16 lg:mb-0">
+                                <div class="content">
+                                    <h2 class="font-bold montserrat mb-8 text-3xl">Proyecto Final</h2>
+                                </div>
+                                <p class="mb-8 leading-normal">Completarás el Business Model Canvas de tu emprendimiento, realizarás un <br> 
+                                    proceso de validación, crearás un prototipo y la primera versión del Pitch Deck</p>
+                                
+                                <button class="h-10 w-1/3 mb-3 bg-white border-2 border-purple-700 rounded justify-between text-sm text-purple-700" id="btn">Inscríbete ahora</button> 
+                            </div>
+
+                        </div>
+                    </div>
+        
+                </div>
+
+    </section>
+
+<section class="h-full mt-32">
+    <div class="text-center">
+                <h2 class="text-4xl mb-8 montserrat font-bold">Horario de Curso</h2>
+    </div>
+
+    <div class="flex flex-col lg:flex-row">
+        <div class="w-full mb-8 lg:mx-4 flex justify-center">
+            <div class="xl:w-2/5 flex bg-grey-light items-center mx-auto p-8 lg:mx-8 justify-between bg-gray-200">
+                <div class="xl:w-2/4 mr-4">
+                    <p>Lunes, miércoles y viernes</p>
+                </div>
+                <div class="border-l-2 border-grey pl-8">
+                    <p class="text-xl">9:00 am - 12:00 md</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="h-full" id="trainer">
+    <div class="flex items-center flex-col-reverse lg:flex-row">
+        <div class="w-auto lg:w-1/2 xl:ml-auto">
+            <div class="sm:pl-16">
+                <div class="container-img-trainer-1 ml-auto md:ml-auto" style="background-image: url(img/trainer.jpg)"></div>
+                <img src="img/trainer.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="w-full lg:w-1/2 ml-auto py-16 px-16 lg:px-0 text-white">
+            <div class="content lg:pl-16 md:pr-16 lg:pr-40 leading-normal">
+                <h3 class="montserrat text-3xl mb-4 font-bold">Conoce a tu entrenador</h3>
+                <h4 class="text-lg font-bold mb-6">Carlos Moreno</h4>
+                <p class="mb-4">Emprendedor y developer con más de 15 años de experiencia en el mundo de la tecnología en las áreas de Banca y Fondo de Pensiones.</p>
+                <p class="mb-4">Posee un Diplomado en Administración de Proyectos y un diplomado en
+                    Ecosistemas Emprendedores. Además cuenta con una Especialización en Modelos de Negocio para Startups.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="h-full py-24 text-center bg-gray-100">
+    <h2 class="text-4xl font-bold montserrat mb-12">Testimonios de profesionales de rubro</h2>
+    <div class="flex justify-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+            <div class="xl:h-32 carousel">
+              <div class="carousel-item active">
+                <h1 class="text-xl italic mb-8">Ser parte de un un proceso de incubación y planificación me ayuda poder <br>
+                    consolidar la idea, madurar modelo de negocio, prepara al equipo ejecutor, <br>
+                    recibir feedback constante, perfeccionar la Startup y tener consultorías <br> 
+                    constantes</h1>
+                <p class="font-base italic">Julio Abrego-  SPOT- Desarrollo de productos y servicios con Inteligencia Artificial</p>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+    </div>
+
+</section>
+
+<section class="course-payment py-6 px-10">
+    <div class="container">
+        <div class="flex mb-8 flex-col md:flex-row xl:items-center">
+            <h3 class="text-4xl font-bold montserrat mb-4 md:mb-0 xl:mr-12">Formas de Pago</h3>
+        </div>
+        <div class="flex items-center flex-col md:flex-row justify-between bg-gray-200 p-8">
+            <h2 class="font-bold text-2xl">Beca Disponible</h2>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="w-full ubication pt-40 flex flex-col my-16 mb-24 lg:flex-row items-center">
+    <div class="container xl:ml-24">
+        <div class="flex">
+            <div class="w-full mb-8 lg:mb-0 md:px-8 lg:px-0">
+                <div class="content pr-16">
+                    <h3 class="font-bold text-4xl montserrat mb-4 xl:mr-12">Nuestra Ubicación</h3>
+                    <p class="mb-8 break-normal pr-8">9 Calle Poniente, 99 Avenida Norte #548, Colonia Escalón, <br> El Salvador</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.162121922295!2d-89.24920848519179!3d13.708628990375372!2m3
+        !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632f87904694f1%3A0xc65d0b345b16c894!2sBITLAB+Digital+Skills+Academy!5e0!3m2!1ses!2ssv!4v1562119856205!5m2!1ses!2ssv" 
+        width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
+
+        
+    </div>
+
+</section>
+
+    <footer class="flex p-2 bg-black justify-around flex-wrap">
+            <img src="img/logo.png" class="h-6 logo-white transparent ">
+            <p class="text-white ">Todos los derechos reservados, 2019 © BITLAB</p>
+            <div class="flex items-center">
+                <span class="icon-phone text-white ml-2"></span>
+                <p class="text-white ml-2">2200-4197</p>
+                <span class="icon-facebook text-white ml-2"></span>
+                <span class="icon-instagram text-white ml-2"></span>
+            </div>
+    </footer>
+</body>
+<script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+        }
+        
+        $(function() {
+             var b = $("#button");
+             var w = $("#wrapper");
+            var l = $("#list");
+  
+  w.height(l.outerHeight(true));
+
+  b.click(function() {
+  
+    if(w.hasClass('open')) {
+      w.removeClass('open');
+      w.height(0);
+    } else {
+      w.addClass('open');
+      w.height(l.outerHeight(true));
+    }
+  
+  });
+});
+
+	</script>
+</html>
